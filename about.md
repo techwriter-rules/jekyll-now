@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About
+title: О сайте
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+На сайте простым языком описаны требования к текстовым документам: чтобы удобно было оформлять их или аргументировать стилистические решения.
 
-### More Information
+Когда это возможно, приведены простые примеры.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Автор успешно проходил нормоконтроль со своими текстовыми документами, выпустил сотни документов на автоматизированные системы, а также в течение десяти лет оценивал курсовые, дипломные работы и записки к диссертациям.
