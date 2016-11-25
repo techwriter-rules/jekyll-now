@@ -18,9 +18,13 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  background: $white;
+  font: 18px/1.4;
+  font-family:
+	/* 1 */ -apple-system, BlinkMacSystemFont,
+	/* 2 */ "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+	/* 3 */ "Helvetica Neue", sans-serif;
+  color: $gray;
 }
 
 .container {
@@ -31,8 +35,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family:
+	/* 1 */ -apple-system, BlinkMacSystemFont,
+	/* 2 */ "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+	/* 3 */ "Helvetica Neue", sans-serif;
+  color: $darkGray;
   font-weight: bold;
 
   line-height: 1.7;
