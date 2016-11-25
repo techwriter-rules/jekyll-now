@@ -18,13 +18,19 @@ html {
 }
 
 body {
-  background: $white;
-  font: 18px/1.4;
-  font-family:
-	/* 1 */ -apple-system, BlinkMacSystemFont,
-	/* 2 */ "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-	/* 3 */ "Helvetica Neue", sans-serif;
-  color: $gray;
+    background: $white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    color: rgba(0, 0, 0, .8);
+    font-size: 18px;
+    line-height: 1.4;
+    color: $gray
 }
 
 .container {
@@ -35,16 +41,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:
-	/* 1 */ -apple-system, BlinkMacSystemFont,
-	/* 2 */ "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-	/* 3 */ "Helvetica Neue", sans-serif;
-  color: $darkGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: 0;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    line-height: 1.4;
+    color: $darkGray;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-weight: 700;
 
   @include mobile {
     line-height: 1.4;
